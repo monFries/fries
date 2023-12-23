@@ -5,7 +5,7 @@ on:
   
   schedule:
     # Corre cada día a las 00:22
-    - cron: '22 0 * * *'
+    - cron: '30 0 * * *'
     # Otras programaciones
     #- cron: '0,30 11-23 * * *'
     #- cron: '0 0-10/3 * * *'
