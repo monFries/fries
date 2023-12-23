@@ -1,0 +1,58 @@
+name: run scrap.py
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Corre cada 1h
+    #- cron: '0 * * * *'
+    # Otras programaciones
+    - cron: '7 8-22 * * *'
+    #- cron: '0 0-9/3 * * *'
+    # Corre cada 3h    
+    #- cron: '0 */3 * * *'
+    # Test
+    #- cron: '15,45 10-23 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push
+      contents: write
+      
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' # install the python version needed
+
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r toys/requirements_scrap.txt
+          
+      - name: execute py script
+        #env:
+          #SOME_SECRET: ${{ secrets.SOME_SECRET }}
+        run: python tools.py
+          
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "CAMBIOS EN ELCANO" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
