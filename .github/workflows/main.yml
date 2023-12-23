@@ -5,7 +5,7 @@ on:
   
   schedule:
     # Corre cada 1h. UTC times
-    - cron: '15 11-22 * * *'
+    - cron: '0 11-22 * * *'
     # Otras programaciones
     #- cron: '0,15,30,45 8-22 * * *'
     #- cron: '0 0-10/3 * * *'
