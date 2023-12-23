@@ -5,13 +5,13 @@ group_title_order:
 
 epgs:
   '#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml,
-  https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml,
   https://raw.githubusercontent.com/eldepor/epg/main/ziggogo.tv.xml,
   https://raw.githubusercontent.com/eldepor/epg/main/sky.de.xml,
   https://raw.githubusercontent.com/eldepor/epg/main/flixed.io.xml,
   https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml"
   '
-#  https://raw.githubusercontent.com/eldepor/epg/main/bt.com.xml,
+  # https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml,
+  # https://raw.githubusercontent.com/eldepor/epg/main/bt.com.xml,
 
 
 
