@@ -4,7 +4,7 @@ group_title_order:
 
 
 epgs:
-  '#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml,
+  '#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml,
   https://raw.githubusercontent.com/eldepor/epg/main/ziggogo.tv.xml,
   https://raw.githubusercontent.com/eldepor/epg/main/sky.de.xml,
   https://raw.githubusercontent.com/eldepor/epg/main/flixed.io.xml,
