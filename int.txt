@@ -192,8 +192,10 @@ http://192.168.1.90:8008/ace/getstream?id=95769f95c6af45e8ec46526c3be1104d0a0c7b
 http://192.168.1.90:8008/ace/getstream?id=77800bb07c1d69135024ee2379c97472eb12dd45
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", SuperCopa 1080  8ba7
 http://192.168.1.90:8008/ace/getstream?id=8ba764f6a3bce6eae87ec71208fad1aa3a20528d
-#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", SuperCopa 1080  3a4c
+#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", SuperCopa 1080 MultiAudio  3a4c
 http://192.168.1.90:8008/ace/getstream?id=3a4c8ac955d451bf3c29b45256e74aa0ea82d281
+#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", SuperCopa 1080  7d70
+http://192.168.1.90:8008/ace/getstream?id=7d70685696722c2b1b48a5ae1a7f92c445d9443d
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", SuperCopa 720  dab7
 http://192.168.1.90:8008/ace/getstream?id=dab7cab5d6d177df36c3b333ca363c2266d91a03
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 1 HD" tvg-logo="https://i.ibb.co/DKTwL0t/Eurosport1-o.jpg", Eurosport 1 1080  5e4c
