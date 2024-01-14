@@ -68,6 +68,8 @@ M.Plus 1080
 5a236fbbe6e5bbfec03db548c244a7c858d675c0
 SuperCopa 1080
 8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+SuperCopa 1080 plus
+d6cdd724a97fcf851e7ef641c28d6beb8663496e
 SuperCopa 1080 MultiAudio
 3a4c8ac955d451bf3c29b45256e74aa0ea82d281
 SuperCopa 1080

@@ -90,6 +90,8 @@ plugin://script.module.horus?action=play&id=e737c681a92a4328703761c6ed9d8a951655
 plugin://script.module.horus?action=play&id=33369549c635dabdb78b95c478c21fcc9e4ee854
 #EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 17" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAPIO", ML Campeones 17 SD  6029
 plugin://script.module.horus?action=play&id=60296c246e3596f334903fefd48cfaa724a5053b
+#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 2" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 2  d6cd
+plugin://script.module.horus?action=play&id=d6cdd724a97fcf851e7ef641c28d6beb8663496e
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/M1SD", DAZN 1 1080  8ca0
 plugin://script.module.horus?action=play&id=8ca07071b39185431f8e940ec98d1add9e561639
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/M1SD", DAZN 1 720  eaff
@@ -104,8 +106,6 @@ plugin://script.module.horus?action=play&id=a8ffddef56f082d4bb5c0be0d3d2fdd8c16d
 plugin://script.module.horus?action=play&id=2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 1" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 1  6002
 plugin://script.module.horus?action=play&id=600222a4f98df80a2c0df2d60cb5ff3df9620710
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 2" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 2  d6cd
-plugin://script.module.horus?action=play&id=d6cdd724a97fcf851e7ef641c28d6beb8663496e
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 3" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 3  1629
 plugin://script.module.horus?action=play&id=162942adc047d0f78eac056effbe5bbec54a5e51
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 4" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 4  e454
