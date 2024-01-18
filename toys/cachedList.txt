@@ -66,15 +66,15 @@ LaLiga Smartbank 8
 4d52fc1994fe927702aeb7bc8778e2f23b1260e2
 M.Plus 1080
 5a236fbbe6e5bbfec03db548c244a7c858d675c0
-SuperCopa 1080
+Copa 1080
 8ba764f6a3bce6eae87ec71208fad1aa3a20528d
-SuperCopa 1080 plus
+Copa 1080 plus
 d6cdd724a97fcf851e7ef641c28d6beb8663496e
-SuperCopa 1080 MultiAudio
+Copa 1080 MultiAudio
 3a4c8ac955d451bf3c29b45256e74aa0ea82d281
-SuperCopa 1080
+Copa 1080
 7d70685696722c2b1b48a5ae1a7f92c445d9443d
-SuperCopa 720
+Copa 720
 dab7cab5d6d177df36c3b333ca363c2266d91a03
 #Vamos 1080
 859bb6295b8d0f224224d3063d9db7cdeca03122
