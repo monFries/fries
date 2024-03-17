@@ -6,8 +6,6 @@ https://elcano.top
 acestream://c021e3af42b9cd3743817a2c6258e0986666dd73
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MVF1", DAZN F1 Multicámara  9686
 acestream://968627d24eec1c16b51d88e4a4a6c02211e3346e
-#EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MF1UHD", DAZN F1 UHD  6b94
-acestream://6b94479c24898700089e6b87d28a3ccc72dc4041
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MVF1", DAZN F1 1080  5789
 acestream://5789ca155323664edd293b848606688edf803f4d
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MVF1", DAZN F1 1080  9dad
@@ -18,8 +16,6 @@ acestream://e1fcad9de0c782c157fde6377805c58297ab65c2
 acestream://8286183314d367940409b760bbf887f3fb923f60
 #EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga 2 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNL2", DAZN LaLiga 2 720 MultiAudio  02b9
 acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
-#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIGUH", M+ LaLiga UHD  dce1
-acestream://dce1579e3a2e5bd29071fca8eae364f1eb3205cf
 #EXTINF:-1 group-title="LaLiga" tvg-id="LaLiga TV BAR" tvg-logo="https://i.ibb.co/pLPmnGg/liga-TVbar.png", La Liga BAR 1080  aa82
 acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIGA", M+ LaLiga 1080 MultiAudio  7d8c
@@ -90,8 +86,6 @@ acestream://e737c681a92a4328703761c6ed9d8a951655f3e4
 acestream://33369549c635dabdb78b95c478c21fcc9e4ee854
 #EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 17" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAPIO", ML Campeones 17 SD  6029
 acestream://60296c246e3596f334903fefd48cfaa724a5053b
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 2" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 2  d6cd
-acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/M1SD", DAZN 1 1080  8ca0
 acestream://8ca07071b39185431f8e940ec98d1add9e561639
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/M1SD", DAZN 1 720  eaff
@@ -104,12 +98,6 @@ acestream://7aa402bab9fff43258fbcf401881a39475f30aaf
 acestream://a8ffddef56f082d4bb5c0be0d3d2fdd8c16dbd97
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 4 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZN4", DAZN 4 1080  2fcd
 acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 1" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 1  6002
-acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 3" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 3  1629
-acestream://162942adc047d0f78eac056effbe5bbec54a5e51
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga Femenina 4" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%20Femenina%201.png", DAZN Liga F 4  e454
-acestream://e454681a152a86da504e63694f17f90d0586867d
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="Movistar Plus+ HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Movistar%20Plus%2B%20HD.png", M Plus+ 1080  5a23
 acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Vamos HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Vamos%20HD.png", #Vamos 1080  859b
@@ -192,6 +180,8 @@ acestream://95769f95c6af45e8ec46526c3be1104d0a0c7b91
 acestream://77800bb07c1d69135024ee2379c97472eb12dd45
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", Copa 1080  8ba7
 acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", PPVP 2  d6cd
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", Copa 1080 MultiAudio  3a4c
 acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", Copa 1080  7d70
@@ -218,6 +208,12 @@ acestream://f8cb9d9e3077eb3ae417b2d95a69c5f590760eb9
 acestream://41af6926a6010b68ba2540975761436bb077748f
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Barcelona TV" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-barca-tv-1456.png", Barça 720  e336
 acestream://e3362507e7c732b9461bd7bdc74bd054c49b3ba7
+#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", PPVP 1  6002
+acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710
+#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", PPVP 3  1629
+acestream://162942adc047d0f78eac056effbe5bbec54a5e51
+#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", PPVP 4  e454
+acestream://e454681a152a86da504e63694f17f90d0586867d
 #EXTINF:-1 group-title="electroperra" tvg-id="Discovery" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Discovery.png", Discovery  
 http://iptv.darktv.nl:80/play/live.php?mac=00:1A:79:0D:9F:6D&stream=30194&extension=ts&play_token=H9QHtyNjwN
 #EXTINF:-1 group-title="electroperra" tvg-id="HISTORIA" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/HIST", Historia  
