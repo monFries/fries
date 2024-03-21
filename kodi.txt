@@ -214,16 +214,6 @@ plugin://script.module.horus?action=play&id=600222a4f98df80a2c0df2d60cb5ff3df962
 plugin://script.module.horus?action=play&id=162942adc047d0f78eac056effbe5bbec54a5e51
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/d4d9a410917c5c13f9c5a.png", PPVP 4  e454
 plugin://script.module.horus?action=play&id=e454681a152a86da504e63694f17f90d0586867d
-#EXTINF:-1 group-title="electroperra" tvg-id="Discovery" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Discovery.png", Discovery  
-http://iptv.darktv.nl:80/play/live.php?mac=00:1A:79:0D:9F:6D&stream=30194&extension=ts&play_token=H9QHtyNjwN
-#EXTINF:-1 group-title="electroperra" tvg-id="HISTORIA" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/HIST", Historia  
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55609&extension=ts&play_token=ltn2GgE1z6
-#EXTINF:-1 group-title="electroperra" tvg-id="NAT GEO WILD HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/NATGW", Nat Geo Wild  
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55611&extension=ts&play_token=ltn2GgE1z6
-#EXTINF:-1 group-title="electroperra" tvg-id="NAT GEO HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/NATGEO", National Geographic  
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55613&extension=ts&play_token=ltn2GgE1z6
-#EXTINF:-1 group-title="electroperra" tvg-id="Odisea" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Odisea.png", Odisea  
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55597&extension=ts&play_token=ltn2GgE1z6
 #EXTINF:-1 group-title="Otros" tvg-id="La 1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/TVE", La1 UHD  6636
 plugin://script.module.horus?action=play&id=6636a5c1055b5913ddcd0e87a5523f7d935350af
 #EXTINF:-1 group-title="Otros" tvg-id="La 2" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/LA2", La2  6010
