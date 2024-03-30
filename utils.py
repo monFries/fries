@@ -26,7 +26,10 @@ def get_channel_list(channel_dict):
     channel_list = []
     logo = ''
 
-    for channel_id, channel_name in channel_dict.items():
+    #for channel_id, channel_name in channel_dict.items():
+    for channel in channel_dict:
+        channel_name = channel['name']
+        channel_id = channel['id']
 
         if channel_name.startswith("eventos"):
             channel_name = channel_name[7:]
@@ -57,7 +60,7 @@ def get_channel_list(channel_dict):
                     channel_name = channel_name
                     group_title = 'Otros deportes'
                     tvg_id = 'nil'
-                    logo = 'https://telegra.ph/file/d4d9a410917c5c13f9c5a.png'
+                    logo = 'https://telegra.ph/file/c96c897856acfd7ed5671.png'
 
         identif = (channel_id[0:4])
         if identif == 'http':

@@ -8,14 +8,14 @@ def scraper():
     lista = ""
     print('scraper : INFO : requesting elcano...', flush=True)
 
-    try:
-        with TorRequests() as tor_requests:
-            with tor_requests.get_session() as sess:
-                grab = sess.get('https://elcano.top')
-                print(grab)
-    except:
-        print("scraper : INFO : torpy linea 22 could not access elcano")
-        sys.exit(1)
+    #try:
+    with TorRequests() as tor_requests:
+        with tor_requests.get_session() as sess:
+            grab = sess.get('https://elcano.top')
+            print(grab)
+    #except:
+        #print("scraper : INFO : torpy linea 22 could not access elcano")
+        #sys.exit(1)
 
     soup = BeautifulSoup(grab.text, 'html.parser')
     for enlace in soup.find_all('a'):

@@ -4,10 +4,13 @@ from tools import *
 # Push from terminal from a second user
 # git config --local credential.helper ""
 
+check = 0
+channels_dict = []
 
 def export_messages():
-    
-        channel_dict = dict()  # {channel_id: channel_name}
+
+
+        #channel_dict = dict()  # {channel_id: channel_name}
         cleansed_content = ""
         #all_channels = '#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml, http://epgspot.com/rytec_epg/rytecUK_SportMovies.xz"\n'
         all_channels = u.dict_epgs + '\n\n' + '#EXTINF:-1 tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", elcano by Lucas' + '\n' + 'https://elcano.top' + '\n'
@@ -131,6 +134,7 @@ def cleanse_elPlan(message_content):
     return cleansed_content
 '''
 
+'''
 def update_channel_dict(message_content):
 
     channel_dict = dict()
@@ -145,11 +149,33 @@ def update_channel_dict(message_content):
 
     return channel_dict
 
+'''
+def update_channel_dict(message_content):
+
+    global check
+    channel_dict = dict()
+    rows = message_content.split("\n")
+    for i, row in enumerate(rows):
+        if i % 2 == 1:
+            channel_id = row
+            channel_name = rows[i-1]
+            check += 1
+            channel_name = u.correct_channel_name(channel_name)
+
+            channel_dict = {
+                "index": check,
+                "name": channel_name,
+                "id": channel_id
+            }
+            channels_dict.append(channel_dict)
+
+    #print(channels_dict)
+    return channels_dict
+
 
 def export_channels(channel_dict):
 
     channel_list = u.get_channel_list(channel_dict)
-
     channels = ""
 
     channel_pattern = '#EXTINF:-1 group-title="GROUPTITLE" tvg-id="TVGID" tvg-logo="LOGO", CHANNELTITLE\nacestream://CHANNELID\n'
@@ -216,4 +242,3 @@ def write_channel_lists(all_channels):
 if __name__ == "__main__":
     scraper()
     export_messages()
-    #gitUpdate()
