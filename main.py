@@ -242,5 +242,5 @@ def write_channel_lists(all_channels):
         
 
 if __name__ == "__main__":
-    scraper()
+    #scraper()
     export_messages()
