@@ -32,8 +32,8 @@ http://127.0.0.1:6878/ace/getstream?id=de52318ab15c921d8d5c036c5f33562382b5ae71
 http://127.0.0.1:6878/ace/getstream?id=5c2ee247211b205f64ef1cf90ef5c45408657326
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 5" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG4", M+ LaLiga 5 1080  c661
 http://127.0.0.1:6878/ace/getstream?id=c661bee7afd61d487ce085a1667c4f2b91d6675d
-#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 6" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG5", M+ LaLiga 6 1080  c896
-http://127.0.0.1:6878/ace/getstream?id=c896d37778f9e43549a788fc22206a655895b51b
+#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 6" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG5", M+ LaLiga 6 1080  4d17
+http://127.0.0.1:6878/ace/getstream?id=4d17be5bb07354e2dfc2bdaeec2c19a9907c4d21
 #EXTINF:-1 group-title="LaLiga" tvg-id="LaLiga TV BAR" tvg-logo="https://i.ibb.co/pLPmnGg/liga-TVbar.png", La Liga BAR 1080  aa82
 http://127.0.0.1:6878/ace/getstream?id=aa82e7d4f03061f2144a2f4be22f2e2210d42280
 #EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNLI", DAZN LaLiga 1080 MultiAudio  1960
