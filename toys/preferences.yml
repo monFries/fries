@@ -50,9 +50,9 @@ nombres:
   key8:
     name: "M. Golf2"
     replace: "M+ Golf 2"
-  #key9:
-    #name: "M.L. Campeones 2"
-    #replace: "M+ Champions Tour"
+  key9:
+    name: "Eurosport4k"
+    replace: "Eurosport 4K"
   key10:
     name: "EuroSport"
     replace: "Eurosport"
@@ -670,6 +670,11 @@ canales:
     group_title: Otros deportes
     logo: https://i.ibb.co/4dFxnrC/Eurosport2-o.jpg
     tvg_id: Eurosport 2
+  canal691:
+    channel_name: Eurosport 4K
+    group_title: Otros deportes
+    logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s
+    tvg_id: Eurosport 4K
   canal71:
     channel_name: GOL TV 1080
     group_title: Otros deportes
