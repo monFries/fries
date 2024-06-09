@@ -160,6 +160,14 @@ http://192.168.1.90:8008/ace/getstream?id=5bd78125bd1e98c3f49e98910ed15e39d0b9f6
 http://192.168.1.90:8008/ace/getstream?id=b7e43c2c3887864193578eb57079955c50070f69
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 8" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%205.png", LaLiga Hypermotion 8  11c8
 http://192.168.1.90:8008/ace/getstream?id=11c89343be863cf2a69b3973747c629d9e79d7b8
+#EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 9" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%205.png", LaLiga Hypermotion 9  0fd1
+http://192.168.1.90:8008/ace/getstream?id=0fd11e74d20919c25d2c5d96ba6f7fc7532394c1
+#EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 10" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%205.png", LaLiga Hypermotion 10  6292
+http://192.168.1.90:8008/ace/getstream?id=629222201d6e36cc0f4ab6244362de32bed783b2
+#EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 11" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%205.png", LaLiga Hypermotion 11  d6ec
+http://192.168.1.90:8008/ace/getstream?id=d6ecda8ad7be7a9a4de3767eb40569b73b738cb4
+#EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 12" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%205.png", LaLiga Hypermotion 12  7b97
+http://192.168.1.90:8008/ace/getstream?id=7b975804279b0aa421496538ad21397cc06ddfb8
 #EXTINF:-1 group-title="British" tvg-id="SkySportsMainEvent.uk" tvg-logo="https://i.ibb.co/8r7M1Fy/mainevent.png", Sky Sports Main Event UK  eab7
 http://192.168.1.90:8008/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
 #EXTINF:-1 group-title="British" tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://i.ibb.co/w4sF0dt/premier.png", Sky Sports Premier League UK  ec5e
@@ -192,15 +200,7 @@ http://192.168.1.90:8008/ace/getstream?id=cba8d369eac629b577750edb90370cd1c5fb03
 http://192.168.1.90:8008/ace/getstream?id=95769f95c6af45e8ec46526c3be1104d0a0c7b91
 #EXTINF:-1 group-title="Otros deportes" tvg-id="ZiggoSportRacing.nl" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2EoR81fJFuLzF0QGi1WAw9t8otRPfwyHdV9UBKcLrQltS7eUUh3yKrZ2U_ICEmjo4PIA&usqp=CAU", Ziggo Sport Racing NL  7780
 http://192.168.1.90:8008/ace/getstream?id=77800bb07c1d69135024ee2379c97472eb12dd45
-#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", LaLiga Hypermotion 9  0fd1
-http://192.168.1.90:8008/ace/getstream?id=0fd11e74d20919c25d2c5d96ba6f7fc7532394c1
-#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", LaLiga Hypermotion 10  6292
-http://192.168.1.90:8008/ace/getstream?id=629222201d6e36cc0f4ab6244362de32bed783b2
-#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", LaLiga Hypermotion 11  d6ec
-http://192.168.1.90:8008/ace/getstream?id=d6ecda8ad7be7a9a4de3767eb40569b73b738cb4
-#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", LaLiga Hypermotion 12  7b97
-http://192.168.1.90:8008/ace/getstream?id=7b975804279b0aa421496538ad21397cc06ddfb8
-#EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", Eurosport4k  c525
+#EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 4K" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s", Eurosport 4K  c525
 http://192.168.1.90:8008/ace/getstream?id=c525471499b936decc037ea86e0f8125ebf78c28
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 1 HD" tvg-logo="https://i.ibb.co/DKTwL0t/Eurosport1-o.jpg", Eurosport 1 1080  5e4c
 http://192.168.1.90:8008/ace/getstream?id=5e4cd48c79f991fcbee2de8b9d30c4b16de3b952
