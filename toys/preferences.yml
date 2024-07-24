@@ -705,7 +705,7 @@ canales:
     group_title: Otros deportes
     logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s
     tvg_id: Eurosport 4K
-   canal69h:
+  canal69h:
     channel_name: Eurosport 1 1080P
     group_title: Otros deportes
     logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s
@@ -730,7 +730,7 @@ canales:
     group_title: Otros deportes
     logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
     tvg_id: Eurosport 5
-   canal69d:
+  canal69d:
     channel_name: Eurosport 6 1080
     group_title: Otros deportes
     logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
