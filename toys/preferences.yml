@@ -50,10 +50,10 @@ nombres:
   key8:
     name: "M. Golf2"
     replace: "M+ Golf 2"
-   key91:
+  key91:
     name: "Euro 4k"
     replace: "Eurosport 4K"
-   key92:
+  key92:
     name: "Euro1"
     replace: "Eurosport 1"
   key93:
@@ -65,7 +65,7 @@ nombres:
   key95:
     name: "Euro4"
     replace: "Eurosport 4"
-   key96:
+  key96:
     name: "Euro5"
     replace: "Eurosport 5"
   key97:
