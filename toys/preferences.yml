@@ -50,6 +50,36 @@ nombres:
   key8:
     name: "M. Golf2"
     replace: "M+ Golf 2"
+   key91:
+    name: "Euro 4k"
+    replace: "Eurosport 4K"
+   key92:
+    name: "Euro1"
+    replace: "Eurosport 1"
+  key93:
+    name: "Euro2"
+    replace: "Eurosport 2"
+  key94:
+    name: "Euro3"
+    replace: "Eurosport 3"
+  key95:
+    name: "Euro4"
+    replace: "Eurosport 4"
+   key96:
+    name: "Euro5"
+    replace: "Eurosport 5"
+  key97:
+    name: "Euro6"
+    replace: "Eurosport 6"
+  key98:
+    name: "Euro7"
+    replace: "Eurosport 7"
+  key99:
+    name: "Euro8"
+    replace: "Eurosport 8"
+  key90:
+    name: "Euro9"
+    replace: "Eurosport 9"
   key9:
     name: "Eurosport4k"
     replace: "Eurosport 4K"
@@ -675,6 +705,54 @@ canales:
     group_title: Otros deportes
     logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s
     tvg_id: Eurosport 4K
+   canal69h:
+    channel_name: Eurosport 1 1080P
+    group_title: Otros deportes
+    logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s
+    tvg_id: Eurosport 4K
+
+
+
+
+    
+  canal69a:
+    channel_name: Eurosport 3 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 3
+  canal69b:
+    channel_name: Eurosport 4 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 4
+  canal69c:
+    channel_name: Eurosport 5 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 5
+   canal69d:
+    channel_name: Eurosport 6 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 6
+  canal69e:
+    channel_name: Eurosport 7 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 7
+  canal69f:
+    channel_name: Eurosport 8 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 8
+  canal69g:
+    channel_name: Eurosport 9 1080
+    group_title: Otros deportes
+    logo: https://telegra.ph/file/c96c897856acfd7ed5671.png
+    tvg_id: Eurosport 9
+
+
+    
   canal71:
     channel_name: GOL TV 1080
     group_title: Otros deportes
