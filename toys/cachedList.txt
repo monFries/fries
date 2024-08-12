@@ -210,6 +210,21 @@ BeMad 1080
 5c267a00f264736c1d47c1cc3e754447ca8f770c
 Telecinco 1080
 bb1982ae8d2d409d4ccd7a9f498042684e3532b5
+
+
+
+• Sport Tv 1 1080
+• Sport Tv 2 1080
+• Sport Tv 3 1080
+• beIN SPORTS ñ
+• Barça 720
+
+• PPVP 1
+• PPVP 2
+• PPVP 3
+• PPVP 4
+
+5c05217f1813045f2af2fe4ec77eb27b7f7deb6e
 Sport Tv 1 1080
 ce235921dac95e1da2dd5e54673c2fecb9e806de
 Sport Tv 2 1080
