@@ -244,5 +244,5 @@ def write_channel_lists(all_channels):
 
 if __name__ == "__main__":
     #scraper()
-    asyncio.run(main())
+    getCachedList()
     export_messages()
