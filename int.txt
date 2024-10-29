@@ -20,8 +20,8 @@ http://192.168.1.90:8008/ace/getstream?id=f031f5728b32f6089dda28edebe990cf198108
 http://192.168.1.90:8008/ace/getstream?id=26029f72a4ca831d09deefe89534818db1d105bc
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 2 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG1", M+ LaLiga 2 720  8012
 http://192.168.1.90:8008/ace/getstream?id=80126b240f3e4e004754fd8f8103e857ab2556a0
-#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2", M+ LaLiga 3 1080  4c48
-http://192.168.1.90:8008/ace/getstream?id=4c4844564313e39a888f593511f299f5ba3cf929
+#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2", M+ LaLiga 3 1080  ffbf
+http://192.168.1.90:8008/ace/getstream?id=ffbfbe31665c5b7f2f687872ba28f5f8717aedfc
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG3", M+ LaLiga 4 1080  aa8f
 http://192.168.1.90:8008/ace/getstream?id=aa8f826da70e27a26b29c7b32402f17e8a67a8b0
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 5" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG4", M+ LaLiga 5 1080  5353
