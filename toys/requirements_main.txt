@@ -4,4 +4,4 @@ requests==2.25.1
 #Telethon==1.24.0
 pyYAML==6.0.1
 #torpy==1.1.6
-playwright==1.47.0
+#playwright==1.47.0
