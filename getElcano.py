@@ -16,9 +16,9 @@ def getCachedList():
     # Prepare content for saving
     content_lines = []
     for link in data["links"]:
-        content_lines.append(f"name {link['name']}")
+        content_lines.append(link['name']")
         #print(link['name'])
-        content_lines.append(f"url {link['url'].replace('acestream://', '')}")
+        content_lines.append(link['url'].replace('acestream://', '')")
         #print(link['url'].replace('acestream://', ''))
 
     # Write content to the output file
