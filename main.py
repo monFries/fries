@@ -1,7 +1,8 @@
 import utils as u
 from importTelegraph import *
 #from tools import *
-from getElcano import *
+#from getElcano import *
+from getElcanoWeb import *
 # Push from terminal from a second user
 # git config --local credential.helper ""
 
@@ -244,5 +245,6 @@ def write_channel_lists(all_channels):
 
 if __name__ == "__main__":
     #scraper()
-    getCachedList()
+    #getCachedList()
+    asyncio.run(main())
     export_messages()
