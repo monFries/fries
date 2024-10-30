@@ -24,7 +24,7 @@ async def extract_links_from_iframe(url):
             print("Response Status:", response.status)
 
         except Exception as e:
-            print(f"An error occurred: {e}")
+            print(f"oh oh!: {e}")
             await browser.close()
             return
 
@@ -58,7 +58,7 @@ async def extract_links_from_iframe(url):
             with open("toys/cachedList.txt", "w") as file:
                 for text, href in acestream_links:
                     file.write(f"{text}\n{href}\n")
-                    print(f"{text}\n{href}")
+                    #print(f"{text}\n{href}")
             print(f"{len(acestream_links)} enlaces aceStream guardados")
         else:
             print("No se han encontrado enlaces acestream. No se ha modificado elcano.txt")
