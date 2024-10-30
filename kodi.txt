@@ -30,8 +30,8 @@ plugin://script.module.horus?action=play&id=26029f72a4ca831d09deefe89534818db1d1
 plugin://script.module.horus?action=play&id=80126b240f3e4e004754fd8f8103e857ab2556a0
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2", M+ LaLiga 3 1080  ffbf
 plugin://script.module.horus?action=play&id=ffbfbe31665c5b7f2f687872ba28f5f8717aedfc
-#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG3", M+ LaLiga 4 1080  aa8f
-plugin://script.module.horus?action=play&id=aa8f826da70e27a26b29c7b32402f17e8a67a8b0
+#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG3", M+ LaLiga 4 1080  eee6
+plugin://script.module.horus?action=play&id=eee6144058d6106c243cbde774b05bff4a704a86
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 5" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG4", M+ LaLiga 5 1080  5353
 plugin://script.module.horus?action=play&id=535394f62a810bc5aeb25be75ea5ff7d03e070b2
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 6" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG5", M+ LaLiga 6 1080  c896
@@ -48,8 +48,8 @@ plugin://script.module.horus?action=play&id=a3bca895c58d3fc7d5e4259d3d5e3cf0291d
 plugin://script.module.horus?action=play&id=e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 #EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga 2 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNL2", DAZN LaLiga 2 720 MultiAudio  02b9
 plugin://script.module.horus?action=play&id=02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
-#EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNL3", DAZN LaLiga 3 1080 MultiAudio  eee6
-plugin://script.module.horus?action=play&id=eee6144058d6106c243cbde774b05bff4a704a86
+#EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNL3", DAZN LaLiga 3 1080 MultiAudio  8c71
+plugin://script.module.horus?action=play&id=8c71f0e0a5476e10950fc827f9d2a507340aba74
 #EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga 4 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNL4", DAZN LaLiga 4 1080 MultiAudio  2792
 plugin://script.module.horus?action=play&id=2792a8a5f4a3f53cd72dec377a2639cd12a6973e
 #EXTINF:-1 group-title="LaLiga" tvg-id="DAZN LaLiga 5 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/DAZNL5", DAZN LaLiga 5 1080 MultiAudio  99e5
