@@ -71,5 +71,4 @@ async def main():
     await extract_links_from_iframe(url)
 
 
-# Run the async function
-asyncio.run(main())
+#asyncio.run(main())
