@@ -1,5 +1,8 @@
+import re
 from playwright.async_api import async_playwright
 import asyncio
+
+url = 'https://proxy.zeronet.dev/18D6dPcsjLrjg2hhnYqKzNh2W6QtXrDwF/'
 
 
 async def extract_links_from_iframe(url):
@@ -18,7 +21,6 @@ async def extract_links_from_iframe(url):
                 await browser.close()
                 return
 
-            #print("Page loaded successfully.")
             print("Response Status:", response.status)
 
         except Exception as e:
@@ -28,7 +30,6 @@ async def extract_links_from_iframe(url):
 
         # Wait for the iframe to be available
         await page.wait_for_selector("#inner-iframe")
-        #print("Iframe has appeared.")
 
         # Get the iframe element
         iframe_element = await page.query_selector("#inner-iframe")
@@ -36,35 +37,37 @@ async def extract_links_from_iframe(url):
         # Wait for the iframe's content to load and switch to it
         iframe_content = await iframe_element.content_frame()
         await iframe_content.wait_for_load_state("load")
-        #print("Iframe content has fully loaded.")
 
         # Extract all clickable links within the iframe
         links = await iframe_content.query_selector_all("a")
 
-        # Open a text file to save the output
-        with open("toys/cachedList.txt", "w") as file:
-            # Extract href and text for each link
-            for link in links:
-                href = await link.get_attribute("href")
-                text = await link.inner_text()
-                # Strip the 'acestream://' prefix and write to file
-                if href.startswith("acestream://"):
-                    href = href[len("acestream://"):]
+        # Collect AceStream links in a list
+        acestream_links = []
+        for link in links:
+            href = await link.get_attribute("href")
+            text = await link.inner_text()
 
-                # Write text and href without extra newlines
-                file.write(f"{text.strip()}\n{href}\n")
-                print(f"{text.strip()}\n{href}")
+            # Check if href starts with 'acestream://' and contains exactly 40 alphanumeric characters
+            if href and href.startswith("acestream://"):
+                content = href[len("acestream://"):]
+                if re.fullmatch(r'[A-Za-z0-9]{40}', content):
+                    acestream_links.append((text.strip(), content))
 
-        #print("Clickable content has been saved to 'cached_list.txt'.")
+        # Write to file only if there are AceStream links
+        if acestream_links:
+            with open("toys/cachedList.txt", "w") as file:
+                for text, href in acestream_links:
+                    file.write(f"{text}\n{href}\n")
+                    print(f"{text}\n{href}")
+            print(f"{len(acestream_links)} enlaces aceStream guardados")
+        else:
+            print("No se han encontrado enlaces acestream. No se ha modificado elcano.txt")
 
-        # Keep the browser open for an hour before closing
-        await asyncio.sleep(1)
+        # Close the browser
         await browser.close()
 
 
-# Example usage
 async def main():
-    url = 'https://proxy.zeronet.dev/18D6dPcsjLrjg2hhnYqKzNh2W6QtXrDwF/'
     await extract_links_from_iframe(url)
 
 
