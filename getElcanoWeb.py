@@ -68,7 +68,7 @@ async def extract_links_from_iframe(url):
             with open("toys/cachedList.txt", "w") as file:
                 for text, href in acestream_links:
                     file.write(f"{text}\n{href}\n")
-                    print(f"{text}\n{href}")
+                    #print(f"{text}\n{href}")
             print(f"{len(acestream_links)} AceStream links saved.")
         else:
             print("No AceStream links found. cachedList.txt has not been modified.")
@@ -82,4 +82,4 @@ async def main():
 
 
 # Run the async function
-asyncio.run(main())
+#asyncio.run(main())
