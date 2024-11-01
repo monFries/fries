@@ -24,7 +24,7 @@ async def extract_links_from_iframe(url):
             print("Response Status:", response.status)
 
         except Exception as e:
-            print(f"oh oh!: {e}")
+            print(f"An error occurred: {e}")
             await browser.close()
             return
 
@@ -38,30 +38,40 @@ async def extract_links_from_iframe(url):
         iframe_content = await iframe_element.content_frame()
         await iframe_content.wait_for_load_state("load")
 
-        # Extract all clickable links within the iframe
-        links = await iframe_content.query_selector_all("a")
+        # Extract all links from the linksList container
+        links_list = await iframe_content.query_selector("#linksList")
+        list_items = await links_list.query_selector_all("li")
 
         # Collect AceStream links in a list
         acestream_links = []
-        for link in links:
-            href = await link.get_attribute("href")
-            text = await link.inner_text()
+        for item in list_items:
+            name = await item.query_selector(".link-name")
+            url_div = await item.query_selector(".link-url")
+            link_actions = await item.query_selector_all(".link-actions a")
 
-            # Check if href starts with 'acestream://' and contains exactly 40 alphanumeric characters
-            if href and href.startswith("acestream://"):
-                content = href[len("acestream://"):]
-                if re.fullmatch(r'[A-Za-z0-9]{40}', content):
-                    acestream_links.append((text.strip(), content))
+            # Get the name and url
+            name_text = await name.inner_text() if name else None
+            url_text = await url_div.inner_text() if url_div else None
+
+            # Check if there are any links in the actions
+            for link in link_actions:
+                href = await link.get_attribute("href")
+                # Extract the stream ID from the href
+                if href and "getstream?id=" in href:
+                    stream_id = href.split("id=")[-1]
+                    # Check if stream_id is valid (40 alphanumeric characters)
+                    if re.fullmatch(r'[A-Za-z0-9]{40}', stream_id):
+                        acestream_links.append((name_text.strip(), stream_id))
 
         # Write to file only if there are AceStream links
         if acestream_links:
             with open("toys/cachedList.txt", "w") as file:
                 for text, href in acestream_links:
                     file.write(f"{text}\n{href}\n")
-                    #print(f"{text}\n{href}")
-            print(f"{len(acestream_links)} enlaces aceStream guardados")
+                    print(f"{text}\n{href}")
+            print(f"{len(acestream_links)} AceStream links saved.")
         else:
-            print("No se han encontrado enlaces acestream. No se ha modificado elcano.txt")
+            print("No AceStream links found. cachedList.txt has not been modified.")
 
         # Close the browser
         await browser.close()
@@ -71,4 +81,5 @@ async def main():
     await extract_links_from_iframe(url)
 
 
-#asyncio.run(main())
+# Run the async function
+asyncio.run(main())
