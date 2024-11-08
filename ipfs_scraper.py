@@ -11,8 +11,8 @@ def get_acelinks_ipfs():
     #'''
     # TOR USAGE. UNCOMMENT LINE INSIDE try/except BOLOCK:
     proxies = {
-        'http': 'socks5h://localhost:9050',
-        'https': 'socks5h://localhost:9050'
+        'http': 'socks5h://localhost:9051',
+        'https': 'socks5h://localhost:9051'
     }
     #'''
     try:
