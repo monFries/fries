@@ -40,6 +40,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y tor
 
+      - name: Configure Tor to use port 9051
+        run: |
+          echo "SocksPort 127.0.0.1:9051" | sudo tee -a /etc/tor/torrc
+          sudo systemctl restart tor
+
       - name: Start Tor Service
         run: tor &
 
