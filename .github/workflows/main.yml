@@ -34,11 +34,28 @@ jobs:
         run: |
           pip install playwright
           playwright install chromium
-          
+
+      - name: Install Tor
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tor
+
+      - name: Start Tor Service
+        run: tor &
+
       - name: execute py script # run main.py
         #env:
           #SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: python main.py
+
+      - name: Notify Telegram on Failure
+        if: failure()
+        run: |
+          if [ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] && [ -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
+            curl -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="⚠️ ERROR elcano fries2"
+          fi
           
       - name: commit files
         run: |
