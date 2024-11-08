@@ -50,9 +50,9 @@ def get_acelinks_ipfs():
                 if len(link["url"].replace("acestream://", "")) < 40:
                     continue
                 plain_text_list.append(link["name"])
-                print(link["name"])
+                #print(link["name"])
                 plain_text_list.append(link["url"].replace("acestream://", ""))  # Strip "acestream://"
-                print(link["url"].replace("acestream://", ""))
+                #print(link["url"].replace("acestream://", ""))
 
             with open('toys/cachedList.txt', 'w', encoding='utf-8') as file:
                 for item in plain_text_list:
