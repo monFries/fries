@@ -1,30 +1,31 @@
 import requests
 import json
 
-save_to_path = 'toys/cachedList.txt'
 
 def get_acelinks_ipfs():
 
-    #url = 'https://ipfs.io/ipns/k51qzi5uqu5dgg9al11vomikugim0o1i3l3fxp3ym3jwaswmy9uz8pq4brg1u9'
+    # NEW LIST??
+    url = 'https://ipfs.io/ipns/k51qzi5uqu5dgg9al11vomikugim0o1i3l3fxp3ym3jwaswmy9uz8pq4brg1u9'
     #url = 'https://ipfs.io/ipns/elcano.top'
-    url = 'https://bafybeihaak6jp7c6y3weyynkfruefwtgchvx2uuppmtts775k4z7kyw4ny.ipfs.dweb.link'
+    # OLD STATIC LIST
+    #url = 'https://bafybeihaak6jp7c6y3weyynkfruefwtgchvx2uuppmtts775k4z7kyw4ny.ipfs.dweb.link'
     '''
     # TOR USAGE. UNCOMMENT LINE INSIDE try/except BOLOCK:
     proxies = {
-        'http': 'socks5h://localhost:9051',
-        'https': 'socks5h://localhost:9051'
+        'http': 'socks5h://localhost:9050',
+        'https': 'socks5h://localhost:9050'
     }
     '''
     try:
-        #response = requests.get(url, proxies=proxies)
         response = requests.get(url)
+        # response = requests.get(url, proxies=proxies)
         response.raise_for_status()
 
     except requests.HTTPError as e:
         # Send your bot notification here
         print(f"IPFS ERROR: {e}")
         exit(1)
-        #return
+        return
 
     print("IPFS Response Status:", response.status_code)
     content = response.content.decode('utf-8', errors='replace')  # Use UTF-8 encoding
@@ -43,7 +44,7 @@ def get_acelinks_ipfs():
             if not links_data["links"]:
                 print("No links found in links_data.")
                 exit(1)
-                #return
+                return
             plain_text_list = []
 
             for link in links_data["links"]:
@@ -54,7 +55,7 @@ def get_acelinks_ipfs():
                 plain_text_list.append(link["url"].replace("acestream://", ""))  # Strip "acestream://"
                 #print(link["url"].replace("acestream://", ""))
 
-            with open('toys/cachedList.txt', 'w', encoding='utf-8') as file:
+            with open('toys/updated_channels.txt', 'w', encoding='utf-8') as file:
                 for item in plain_text_list:
                     file.write(f"{item}\n")
 
@@ -65,7 +66,7 @@ def get_acelinks_ipfs():
     else:
         print("No links data found in the content.")
         exit(1)
-        #return
+        return
 
 
 #get_acelinks_ipfs()
