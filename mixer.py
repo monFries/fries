@@ -55,7 +55,7 @@ def mix_listas():
     #print(f"Channels kept from the second list: {updated_count}")
     #print(f"Channels added from the first list: {added_count}")
     print(f"Channels in the final list: {total_channels_final_list}")
-    print(f"Updated file saved as {output_file}")
+    print(f"Updated file saved as {output_file}\n")
 
 
 #mix_listas()
