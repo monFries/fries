@@ -1,6 +1,6 @@
-input_file_1 = "toys/channels.txt"  # Path to your first input file (channels)
+input_file_1 = "toys/cachedList.txt"  # Path to your first input file (channels)
 input_file_2 = "toys/updated_channels.txt"  # Path to your second input file (updated AceStream IDs)
-output_file = "toys/channels.txt"  # Path to save the final updated content
+output_file = "toys/cachedList.txt"  # Path to save the final updated content
 
 
 # Function to read a file and return a list of channels and AceStream IDs
