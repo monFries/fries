@@ -1,6 +1,8 @@
 import utils as u
 from importTelegraph import *
 from ipfs_scraper import get_acelinks_ipfs
+from mixer import mix_listas
+
 #from tools import *
 #from getElcano import *
 #from getElcanoWeb import *
@@ -247,5 +249,8 @@ if __name__ == "__main__":
     #scraper()
     #getCachedList()
     get_acelinks_ipfs()
+    mix_listas()
+
     #asyncio.run(main())
     export_messages()
+
