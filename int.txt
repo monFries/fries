@@ -70,18 +70,18 @@ http://192.168.1.90:8008/ace/getstream?id=11744c25a594e17d587ed0871fe40ff21b4bd1
 http://192.168.1.90:8008/ace/getstream?id=fdda1f0dd8c33fbdc5a66ab98e291f570cae67cd
 #EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 7" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP6", ML Campeones 7 1080  b7f4
 http://192.168.1.90:8008/ace/getstream?id=b7f47db93dced60f54e8f89e2366ed061b534049
-#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 8" tvg-logo="https://telegra.ph/file/f2331933708bc91db95f2.png", ML Campeones 8 1080  6c44
-http://192.168.1.90:8008/ace/getstream?id=6c445141445b06d7b4328d80e2dd936bd0ca52ca
-#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 9" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP8", ML Campeones 9 SD  7244
-http://192.168.1.90:8008/ace/getstream?id=7244379f8f6382d40afec871fb8e4219a803840b
-#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 10" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP9", ML Campeones 10 SD  d42e
-http://192.168.1.90:8008/ace/getstream?id=d42e1b592b840ea34394fd3e1b1d3a4d0f399213
-#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 11" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP10", ML Campeones 11 SD  e737
-http://192.168.1.90:8008/ace/getstream?id=e737c681a92a4328703761c6ed9d8a951655f3e4
-#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 12" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP11", ML Campeones 12 SD  3336
-http://192.168.1.90:8008/ace/getstream?id=33369549c635dabdb78b95c478c21fcc9e4ee854
-#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 13" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP11", ML Campeones 13 SD  6029
-http://192.168.1.90:8008/ace/getstream?id=60296c246e3596f334903fefd48cfaa724a5053b
+#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 8" tvg-logo="https://telegra.ph/file/f2331933708bc91db95f2.png", ML Campeones 8 1080  d298
+http://192.168.1.90:8008/ace/getstream?id=d298c6e5c8be71f5995b45289c6388b225318b3c
+#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 9" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP8", ML Campeones 9 SD  2d7c
+http://192.168.1.90:8008/ace/getstream?id=2d7c4cfb3987b652a779afc894cca2fccbbacf21
+#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 10" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP9", ML Campeones 10 SD  c056
+http://192.168.1.90:8008/ace/getstream?id=c056f9e180cd7d40963129a17ff54f4ee8259353
+#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 11" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP10", ML Campeones 11 SD  a12a
+http://192.168.1.90:8008/ace/getstream?id=a12a16f74cf12799d4475ae867dc61eb60e1ba2e
+#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 12" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP11", ML Campeones 12 SD  df7d
+http://192.168.1.90:8008/ace/getstream?id=df7d145fcaf0566db4098d2f10236185d92bc9fd
+#EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 13" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAP11", ML Campeones 13 SD  bdfe
+http://192.168.1.90:8008/ace/getstream?id=bdfe9ebe62d690c1b13eef4346d72e618cfbe804
 #EXTINF:-1 group-title="M+ Champions" tvg-id="M+ Liga de Campeones 17" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/CHAPIO", ML Campeones 17 SD  6029
 http://192.168.1.90:8008/ace/getstream?id=60296c246e3596f334903fefd48cfaa724a5053b
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/M1SD", DAZN 1 1080  7cf0
