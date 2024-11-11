@@ -49,7 +49,7 @@ def mix_listas():
     total_channels_final_list = len(updated_lines) // 2  # Two lines per channel (name + ID)
 
     # Print the log summary
-    #print(f"\nSummary:")
+    print(f"\nMIXER:")
     #print(f"Total channels in the first list: {total_channels_first_list}")
     print(f"Channels in the new list: {total_channels_second_list}")
     #print(f"Channels kept from the second list: {updated_count}")
