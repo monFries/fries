@@ -5,8 +5,8 @@ import json
 def get_acelinks_ipfs():
 
     # NEW LIST??
-    url = 'https://ipfs.io/ipns/k51qzi5uqu5dgg9al11vomikugim0o1i3l3fxp3ym3jwaswmy9uz8pq4brg1u9'
-    #url = 'https://ipfs.io/ipns/elcano.top'
+    #url = 'https://ipfs.io/ipns/k51qzi5uqu5dgg9al11vomikugim0o1i3l3fxp3ym3jwaswmy9uz8pq4brg1u9'
+    url = 'https://ipfs.io/ipns/elcano.top'
     # OLD STATIC LIST
     #url = 'https://bafybeihaak6jp7c6y3weyynkfruefwtgchvx2uuppmtts775k4z7kyw4ny.ipfs.dweb.link'
     '''
@@ -55,7 +55,7 @@ def get_acelinks_ipfs():
                 plain_text_list.append(link["url"].replace("acestream://", ""))  # Strip "acestream://"
                 #print(link["url"].replace("acestream://", ""))
 
-            with open('toys/updated_channels.txt', 'w', encoding='utf-8') as file:
+            with open('toys/cachedList.txt', 'w', encoding='utf-8') as file:
                 for item in plain_text_list:
                     file.write(f"{item}\n")
 
