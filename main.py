@@ -21,19 +21,19 @@ def export_messages():
         all_channels = u.dict_epgs + '\n\n'
 
         
-        events = importTG('eventos')
-        cleansed_content = cleanse_events(events)
-        channel_dict = update_channel_dict(cleansed_content)
-        all_channels += export_channels(channel_dict)
+        #events = importTG('eventos')
+        #cleansed_content = cleanse_events(events)
+        #channel_dict = update_channel_dict(cleansed_content)
+        #all_channels += export_channels(channel_dict)
 
-        extras = importTG('canales_extras')
-        cleansed_content = cleanse_general(extras)
+        #extras = importTG('canales_extras')
+        #cleansed_content = cleanse_general(extras)
 
         elcano = read_cached_elcano()
         cleansed_content += cleanse_general(elcano)
 
-        misCanales = importTG('mis_canales')
-        cleansed_content += cleanse_misCanales(misCanales)
+        #misCanales = importTG('mis_canales')
+        #cleansed_content += cleanse_misCanales(misCanales)
         channel_dict = update_channel_dict(cleansed_content)
         all_channels += export_channels(channel_dict)
 
@@ -249,7 +249,7 @@ if __name__ == "__main__":
     #scraper()
     #getCachedList()
     get_acelinks_ipfs()
-    mix_listas()
+    #mix_listas()
 
     #asyncio.run(main())
     export_messages()
