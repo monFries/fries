@@ -112,6 +112,8 @@ plugin://script.module.horus?action=play&id=b51f2d9a15b6956a44385b6be531bcabeb09
 plugin://script.module.horus?action=play&id=d03c13b6723f66155d7a0df3692a3b073fe630f2
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Vamos HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Vamos%20HD.png", #Vamos 720  12ba
 plugin://script.module.horus?action=play&id=12ba546d229bc39f01c3c18988a034b215fe6adb
+#EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Ellas Vamos HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Ellas%20Vamos%20HD.png", #Ellas 1080  d8c2
+plugin://script.module.horus?action=play&id=d8c2ed470e847154a88f011137cc206319f6bed5
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Deportes HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes%20HD.png", M+ Deportes 1080  55d4
 plugin://script.module.horus?action=play&id=55d4602cb22b0d8a33c10c2c2f42dae64a9e8895
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Deportes HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes%20HD.png", M+ Deportes 720  3a74
@@ -136,8 +138,6 @@ plugin://script.module.horus?action=play&id=e258e75e0e802afa5fcc53d46b47d8801a25
 plugin://script.module.horus?action=play&id=d6cdd724a97fcf851e7ef641c28d6beb8663496e
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2", Copa 1080 MultiAudio  3a4c
 plugin://script.module.horus?action=play&id=3a4c8ac955d451bf3c29b45256e74aa0ea82d281
-#EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Ellas Vamos HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Ellas%20Vamos%20HD.png", #Ellas 1080  6765
-plugin://script.module.horus?action=play&id=67654e63b5065cdaa6c8e8d41bb5428b42b32830
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%20HD.png", LaLiga Hypermotion 1080  b270
 plugin://script.module.horus?action=play&id=b2706a7ffbea236a3b398139a3a606ada664c0eb
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%20HD.png", LaLiga Hypermotion 720  121f
@@ -190,6 +190,8 @@ plugin://script.module.horus?action=play&id=cba8d369eac629b577750edb90370cd1c5fb
 plugin://script.module.horus?action=play&id=95769f95c6af45e8ec46526c3be1104d0a0c7b91
 #EXTINF:-1 group-title="Otros deportes" tvg-id="ZiggoSportRacing.nl" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2EoR81fJFuLzF0QGi1WAw9t8otRPfwyHdV9UBKcLrQltS7eUUh3yKrZ2U_ICEmjo4PIA&usqp=CAU", Ziggo Sport Racing NL  7780
 plugin://script.module.horus?action=play&id=77800bb07c1d69135024ee2379c97472eb12dd45
+#EXTINF:-1 group-title="Otros deportes" tvg-id="Teledeporte" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/TDEP", tdp 1080  61b9
+plugin://script.module.horus?action=play&id=61b9b271c16f970aab43cb753c5f8be181dceece
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 1 HD" tvg-logo="https://i.ibb.co/DKTwL0t/Eurosport1-o.jpg", Eurosport 1 1080  5e4c
 plugin://script.module.horus?action=play&id=5e4cd48c79f991fcbee2de8b9d30c4b16de3b952
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 2" tvg-logo="https://i.ibb.co/4dFxnrC/Eurosport2-o.jpg", Eurosport 2 1080  c373
@@ -208,8 +210,6 @@ plugin://script.module.horus?action=play&id=7cf437be950f3525e735be57c63f7824cab8
 plugin://script.module.horus?action=play&id=ad6f4e8e329d6a97c7e7d7b0b8e5d04d8dd0bb48
 #EXTINF:-1 group-title="Otros deportes" tvg-id="nil" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", PPVP 4  7cf4
 plugin://script.module.horus?action=play&id=7cf437be950f3525e735be57c63f7824cab822c9
-#EXTINF:-1 group-title="Otros deportes" tvg-id="Teledeporte" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/TDEP", tdp 1080  e239
-plugin://script.module.horus?action=play&id=e2395d28ad19423212fd3aa0e81f387db3e8bb9f
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 4K" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgdqJODqwW6zAFu6rkzH-mNfUvkcdX52R2g&s", Eurosport 4K  6313
 plugin://script.module.horus?action=play&id=63135c171f056d1d6028f9ffb1637ed704b88a20
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Eurosport 4K" tvg-logo="https://telegra.ph/file/c96c897856acfd7ed5671.png", Eurosport 1 1080P  f233
