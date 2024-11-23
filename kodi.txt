@@ -146,8 +146,8 @@ plugin://script.module.horus?action=play&id=121f719ebb94193c6086ef92865cf9b19775
 plugin://script.module.horus?action=play&id=0cfdfde1b70623b8c210b0f7301be2a87456481d
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 2" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%202.png", LaLiga Hypermotion 2 720  0a33
 plugin://script.module.horus?action=play&id=0a335406bad0b658aeddb2d38f8c0614b2e5623a
-#EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 3" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%203.png", LaLiga Hypermotion 3  2019
-plugin://script.module.horus?action=play&id=20196007a6697a1f11589fd4c8bab6713c265e64
+#EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 3" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%203.png", LaLiga Hypermotion 3  fefd
+plugin://script.module.horus?action=play&id=fefd45ed6ff415e05f1341b7d9da2988eacd13ea
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 4" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%204.png", LaLiga Hypermotion 4  ef3a
 plugin://script.module.horus?action=play&id=ef3a9359800bba51018fe00ac84afb8e79a7bbf2
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 5" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion%205.png", LaLiga Hypermotion 5  7a6f
