@@ -190,6 +190,11 @@ canales:
     group_title: LaLiga
     logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2
     tvg_id: M+ LaLiga TV 3 HD
+  canal9a:
+    channel_name: M+ LaLiga 3 720
+    group_title: LaLiga
+    logo: https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2
+    tvg_id: M+ LaLiga TV 3 HD
   canal10:
     channel_name: M+ LaLiga 4 1080
     group_title: LaLiga
