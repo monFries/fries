@@ -24,6 +24,8 @@ plugin://script.module.horus?action=play&id=f31a586422c9244196c810c84b6c85da3503
 plugin://script.module.horus?action=play&id=ebe14f1edeb49f2253e3b355a8beeadc9b4f0bc4
 #EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG2", M+ LaLiga 3 720  8356
 plugin://script.module.horus?action=play&id=835639b89db00cc0d94660da3c10b6e38bfbcdc1
+#EXTINF:-1 group-title="LaLiga" tvg-id="M+ LaLiga TV 4" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/MLIG3", M+ LaLiga 4 1080  6869
+plugin://script.module.horus?action=play&id=68697ea4f261289d97bbc3418ad3cbc4180aa32f
 #EXTINF:-1 group-title="LaLiga" tvg-id="LaLiga TV BAR" tvg-logo="https://i.ibb.co/pLPmnGg/liga-TVbar.png", La Liga BAR 1080  608b
 plugin://script.module.horus?action=play&id=608b0faf7d3d25f6fe5dba13d5e4b4142949990e
 #EXTINF:-1 group-title="LaLiga" tvg-id="LaLiga TV BAR" tvg-logo="https://i.ibb.co/pLPmnGg/liga-TVbar.png", La Liga BAR 1080  94d3
