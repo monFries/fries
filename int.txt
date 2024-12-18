@@ -144,3 +144,7 @@ http://192.168.1.90:8008/ace/getstream?id=98784fa0714190de289f42eb5b84e405df7e68
 http://192.168.1.90:8008/ace/getstream?id=16ffa1713f42aa27317ee039a2bd0cdbc89a1580
 #EXTINF:-1 group-title="Otros" tvg-id="Eurosport 2" tvg-logo="https://i.ibb.co/4dFxnrC/Eurosport2-o.jpg", Eurosport 2 1080  9878
 http://192.168.1.90:8008/ace/getstream?id=98784fa0714190de289f42eb5b84e405df7e685a
+#EXTINF:-1 group-title="Otros" tvg-id="Telecinco HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/T5", Telecinco 1080  66a7
+http://192.168.1.90:8008/ace/getstream?id=66a7e4727bccce8ccc04e54861b06b62d89452fa
+#EXTINF:-1 group-title="Otros" tvg-id="Telecinco HD" tvg-logo="https://estatico.emisiondof6.com/recorte/m-NEONEGR/canal/T5", Telecinco 1080  47e6
+http://192.168.1.90:8008/ace/getstream?id=47e6dd48dd7c9705d07b13139b80e44683fd5eb1
