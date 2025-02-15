@@ -29,9 +29,9 @@ DAZN LaLiga 1080 MultiAudio
 DAZN LaLiga 720
 8c8c1e047a1c5ed213ba74722a5345dc55c3c0eb
 DAZN LaLiga 2 1080 MultiAudio
-97ba38d47680954be40e48bd8f43e17222fefecb
-DAZN LaLiga 2 720 MultiAudio
 51dbbfb42f8091e4ea7a2186b566a40e780953d9
+DAZN LaLiga 2 720 MultiAudio
+97ba38d47680954be40e48bd8f43e17222fefecb
 LaLiga Smartbank 1080
 b2706a7ffbea236a3b398139a3a606ada664c0eb
 LaLiga Smartbank 720
